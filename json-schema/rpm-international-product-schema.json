@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/rpm-international/main/json-schema/rpm-international-product-schema.json",
+  "title": "RPM International Coatings Product",
+  "description": "Schema for an RPM International specialty coatings or sealants product",
+  "type": "object",
+  "properties": {
+    "productId": {
+      "type": "string",
+      "description": "Unique product identifier or SKU"
+    },
+    "productName": {
+      "type": "string",
+      "description": "Full product name"
+    },
+    "brand": {
+      "type": "string",
+      "description": "RPM brand the product belongs to",
+      "enum": [
+        "Rust-Oleum",
+        "DAP",
+        "Zinsser",
+        "Tremco",
+        "Dryvit",
+        "Flowcrete",
+        "Carboline",
+        "Stonhard",
+        "Plasite",
+        "Other"
+      ]
+    },
+    "segment": {
+      "type": "string",
+      "description": "RPM operating segment",
+      "enum": ["Consumer", "Construction Products Group", "Performance Coatings Group"]
+    },
+    "coatingType": {
+      "type": "string",
+      "description": "Primary coating chemistry or type",
+      "enum": [
+        "epoxy",
+        "polyurethane",
+        "alkyd",
+        "latex",
+        "intumescent",
+        "zinc-rich",
+        "epoxy-mastic",
+        "acrylic",
+        "sealant",
+        "caulk",
+        "waterproofing",
+        "primer"
+      ]
+    },
+    "substrates": {
+      "type": "array",
+      "description": "Compatible substrate materials",
+      "items": {
+        "type": "string",
+        "enum": ["steel", "concrete", "wood", "masonry", "aluminum", "fiberglass", "plastic"]
+      }
+    },
+    "coverageRate": {
+      "type": "string",
+      "description": "Coverage rate (e.g., '400 sq ft/gal at 4 mils DFT')"
+    },
+    "dryFilmThickness": {
+      "type": "object",
+      "description": "Recommended dry film thickness range",
+      "properties": {
+        "minMils": { "type": "number" },
+        "maxMils": { "type": "number" }
+      }
+    },
+    "vocContent": {
+      "type": "string",
+      "description": "VOC content in grams per liter"
+    },
+    "features": {
+      "type": "array",
+      "description": "Key performance features",
+      "items": {
+        "type": "string",
+        "enum": [
+          "corrosion-resistance",
+          "chemical-resistance",
+          "fire-protection",
+          "uv-resistance",
+          "abrasion-resistance",
+          "waterproofing",
+          "low-voc",
+          "fast-dry",
+          "single-component"
+        ]
+      }
+    },
+    "applicationMethods": {
+      "type": "array",
+      "description": "Methods for applying the product",
+      "items": {
+        "type": "string",
+        "enum": ["brush", "roller", "spray", "trowel", "squeegee"]
+      }
+    },
+    "markets": {
+      "type": "array",
+      "description": "Target market segments",
+      "items": {
+        "type": "string",
+        "enum": [
+          "industrial",
+          "marine",
+          "oil-gas",
+          "commercial-construction",
+          "residential",
+          "infrastructure",
+          "power-generation",
+          "food-beverage"
+        ]
+      }
+    }
+  },
+  "required": ["productName", "brand", "segment", "coatingType"]
+}

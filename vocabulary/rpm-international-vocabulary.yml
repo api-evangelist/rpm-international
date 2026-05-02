@@ -1,0 +1,93 @@
+title: RPM International Vocabulary
+description: >-
+  Domain vocabulary for RPM International Inc., a multinational specialty
+  coatings and sealants company. Covers protective coatings, construction
+  products, consumer brands, and specialty chemicals terminology.
+version: '1.0'
+created: '2026-05-02'
+modified: '2026-05-02'
+
+categories:
+  - name: Coatings Types
+    description: Categories of protective and decorative coatings products
+    terms:
+      - name: protective-coatings
+        definition: Coatings applied to protect substrates from corrosion, abrasion, chemicals, and weathering
+      - name: architectural-coatings
+        definition: Interior and exterior paints and coatings for buildings and structures
+      - name: industrial-coatings
+        definition: High-performance coatings for manufacturing, oil and gas, marine, and infrastructure applications
+      - name: fire-protection-coatings
+        definition: Intumescent and cementitious coatings that delay structural failure in fires
+      - name: flooring-coatings
+        definition: Epoxy, polyurethane, and specialty coatings for concrete and industrial floors
+      - name: waterproofing
+        definition: Membranes and coatings that prevent water infiltration in buildings and structures
+      - name: sealant
+        definition: Flexible compound applied to fill joints and gaps to prevent air and water penetration
+      - name: caulk
+        definition: Flexible sealant used in construction to fill gaps between building materials
+
+  - name: Brands
+    description: RPM International's key brand portfolio
+    terms:
+      - name: rust-oleum
+        definition: Consumer and professional protective coatings brand; part of Consumer segment
+      - name: dap
+        definition: Consumer caulks, sealants, and patching products brand
+      - name: zinsser
+        definition: Primers, sealers, and specialty coatings brand
+      - name: tremco
+        definition: Commercial roofing and building maintenance systems brand
+      - name: dryvit
+        definition: Exterior insulation and finish system (EIFS) brand
+      - name: flowcrete
+        definition: Seamless industrial and commercial floor coating systems brand
+      - name: carboline
+        definition: High-performance industrial and marine protective coatings brand
+      - name: stonhard
+        definition: Seamless resinous flooring systems brand for industrial and institutional use
+      - name: plasite
+        definition: Specialty chemical-resistant coatings for industrial vessels
+
+  - name: Business Segments
+    description: RPM International's three operating segments
+    terms:
+      - name: consumer-segment
+        definition: RPM segment serving DIY and professional consumers via hardware and home improvement channels
+      - name: construction-products-group
+        definition: RPM segment serving commercial construction with roofing, building envelope, and flooring products
+      - name: performance-coatings-group
+        definition: RPM segment serving industrial and specialty protective coatings markets
+
+  - name: Application Markets
+    description: End markets and substrate types served by RPM products
+    terms:
+      - name: substrate
+        definition: Surface material to which a coating is applied (concrete, steel, wood, etc.)
+      - name: primer
+        definition: Preparatory coating applied to improve adhesion of subsequent coats
+      - name: topcoat
+        definition: Final protective or decorative coating layer
+      - name: epoxy
+        definition: Two-component thermoset polymer coating offering excellent adhesion and chemical resistance
+      - name: polyurethane
+        definition: One or two-component coating offering flexibility, UV resistance, and durability
+      - name: intumescent
+        definition: Fire-resistant coating that swells when exposed to heat to form an insulating char
+
+  - name: Technical Properties
+    description: Key performance characteristics of coatings products
+    terms:
+      - name: voc
+        definition: Volatile Organic Compounds — regulated content in coatings affecting air quality
+      - name: dry-film-thickness
+        definition: Thickness of applied coating after solvents have evaporated (measured in mils or microns)
+      - name: coverage-rate
+        definition: Square feet or meters covered per gallon or liter at a specified film thickness
+      - name: adhesion
+        definition: Bond strength between coating and substrate measured by pull-off or cross-cut tests
+      - name: corrosion-resistance
+        definition: Ability of a coating to prevent oxidation and rust on metal substrates
+      - name: chemical-resistance
+        definition: Resistance to degradation by industrial chemicals, acids, alkalis, and solvents

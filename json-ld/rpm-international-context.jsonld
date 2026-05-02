@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rpm": "https://www.rpminc.com/vocab#",
+
+    "CoatingsProduct": {
+      "@id": "schema:Product",
+      "@type": "@id"
+    },
+    "ProtectiveCoating": {
+      "@id": "rpm:ProtectiveCoating",
+      "@type": "@id"
+    },
+    "CoatingsCompany": {
+      "@id": "schema:Corporation",
+      "@type": "@id"
+    },
+    "CoatingsBrand": {
+      "@id": "schema:Brand",
+      "@type": "@id"
+    },
+
+    "productName": {
+      "@id": "schema:name",
+      "@type": "xsd:string"
+    },
+    "brand": {
+      "@id": "schema:brand",
+      "@type": "@id"
+    },
+    "substrate": {
+      "@id": "rpm:substrate",
+      "@type": "xsd:string"
+    },
+    "coatingType": {
+      "@id": "rpm:coatingType",
+      "@type": "xsd:string"
+    },
+    "coverageRate": {
+      "@id": "rpm:coverageRate",
+      "@type": "xsd:string"
+    },
+    "dryFilmThickness": {
+      "@id": "rpm:dryFilmThickness",
+      "@type": "xsd:string"
+    },
+    "vocContent": {
+      "@id": "rpm:vocContent",
+      "@type": "xsd:string"
+    },
+    "applicationMethod": {
+      "@id": "rpm:applicationMethod",
+      "@type": "xsd:string"
+    },
+    "segment": {
+      "@id": "rpm:segment",
+      "@type": "xsd:string"
+    },
+    "marketChannel": {
+      "@id": "schema:distribution",
+      "@type": "xsd:string"
+    },
+    "chemicalResistance": {
+      "@id": "rpm:chemicalResistance",
+      "@type": "xsd:boolean"
+    },
+    "corrosionResistance": {
+      "@id": "rpm:corrosionResistance",
+      "@type": "xsd:boolean"
+    },
+    "fireProtection": {
+      "@id": "rpm:fireProtection",
+      "@type": "xsd:boolean"
+    }
+  }
+}
