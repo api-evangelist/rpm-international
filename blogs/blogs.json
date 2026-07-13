@@ -1,0 +1,21 @@
+{
+  "repo": "rpm-international",
+  "feeds": [
+    {
+      "source": "https://www.rpminc.com/sustainability/sustainability-news/",
+      "feed_url": "https://www.rpminc.com/sustainability/sustainability-news/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/api-evangelist/rpm-international/refs/heads/main/json-ld/rpm-international-context.jsonld",
+      "feed_url": "https://raw.githubusercontent.com/api-evangelist/rpm-international/refs/heads/main/json-ld/rpm-international-context.jsonld",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 22
+}
