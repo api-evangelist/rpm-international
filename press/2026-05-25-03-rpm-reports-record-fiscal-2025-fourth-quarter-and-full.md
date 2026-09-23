@@ -1,7 +1,9 @@
 ---
 title: RPM Reports Record Fiscal 2025 Fourth-Quarter and Full- ...
 url: https://www.rpminc.com/media/6508/q4-25-rpm-earnings-release-final.pdf
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"RPM International" press release artificial intelligence'
 position: 3
 source: serpapi-google
