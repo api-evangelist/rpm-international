@@ -64,57 +64,104 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-RPM International Inc. is a multinational specialty coatings and sealants company headquartered in Medina, Ohio, with annual revenues of approximately $7.4 billion. RPM operates a portfolio of over 100 leading brands across three segments: Consumer (Rust-Oleum, DAP, Zinsser), Construction (Tremco, Dryvit, Flowcrete), and Performance Coatings (Carboline, Stonhard, Plasite). RPM International does not currently offer a public developer API.
+RPM International Inc. is a multinational specialty coatings and sealants company headquartered in Medina, Ohio, with annual revenues of approximately $7.4 billion. RPM operates a portfolio of over 100 leading brands across three segments: Consumer (Rust-Oleum, DAP, Zinsser), Construction (Tremco, Dryvit, Flowcrete), and Performance Coatings (Carboline, Stonhard, Plasite). RPM International does not currently offer a public developer API, but its subsidiaries and brands serve the construction, maintenance, and protective coatings markets globally.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/rpm-international/refs/heads/main/apis.yml)
+**Areas:** Coatings · Specialty Chemicals · Construction · Manufacturing · Fortune 500
 
-## Scope
+## RPM International on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for RPM International is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rpm-international/](https://apis.io/providers/rpm-international/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### Published properties
 
-- Coatings, Specialty Chemicals, Construction, Manufacturing, Fortune 500
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### JSON Schema (1)
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-05-02
+The data models the API reads and writes.
 
-## APIs
+- [RPM International Coatings Product](https://apis.io/schemas/rpm-international/rpm-international-product/)
 
-No public developer APIs are currently documented for RPM International Inc.
+#### JSON-LD (1)
 
-## Artifacts
+Linked-data contexts for the provider's vocabulary.
 
-### JSON Schema
+- [Rpm International Context](https://apis.io/jsonld/rpm-international/rpm-international-context/)
 
-| File | Description |
+#### Vocabulary (1)
+
+The provider's domain terms, defined.
+
+- [RPM International Vocabulary](https://apis.io/vocabularies/rpm-international/rpm-international-vocabulary/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [RPM International — jsonschema rules](https://apis.io/rules/rpm-international/rpm-international-jsonschema-spectral-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rpm International Domain Security](https://apis.io/security/rpm-international/rpm-international-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.rpminc.com)
+- [Blog](https://www.rpminc.com/sustainability/sustainability-news/)
+
+## API Evangelist rating
+
+**Kin Score 10.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| [rpm-international-product-schema.json](json-schema/rpm-international-product-schema.json) | Coatings product schema with brand, chemistry, and performance properties |
+| Discoverability | 48.2 |
+| Contract quality | 10.7 |
+| Contract governance | 23.5 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
 
-### JSON-LD
+**Agent readiness 0.0** — human-only
 
-| File | Description |
+| Agent-readiness dimension | Result |
 |---|---|
-| [rpm-international-context.jsonld](json-ld/rpm-international-context.jsonld) | JSON-LD context mapping RPM coatings vocabulary to schema.org |
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-### Vocabulary
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
 
-| File | Description |
-|---|---|
-| [rpm-international-vocabulary.yml](vocabulary/rpm-international-vocabulary.yml) | RPM International domain terminology — coatings, brands, segments, technical properties |
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rpm-international/](https://apis.io/providers/rpm-international/).
 
-## Resources
+## How this profile is made
 
-- **Website:** https://www.rpminc.com
-- **Investor Relations:** https://ir.rpminc.com
-- **Sustainability:** https://www.rpminc.com/sustainability
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Maintainers
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for RPM International: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-**FN:** Kin Lane
+## Open an issue
 
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rpm-international/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
